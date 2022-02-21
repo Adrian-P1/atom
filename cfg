@@ -1,0 +1,338 @@
+// Konfiguracja przez Sniper 13 '
+// Ostatnia aktualizacja - 2021-10-01
+// UWAGA! NIE OTWIERAJ TEGO PLIKU PROGRAMEM SŁOWO. KONFIG WTEDY MOŻE NIE DZIAŁAĆ.
+// DO EDYCJI CONFIGÓW PROGRAM POLECAM Atom - atom.io
+// Jeśli korzystasz z Atom nacisnij ctrl + , lub przejdź do pliku >> Ustawienia.
+// W zakładce instalujemy "language source-cfg" - zainstalowanie tego poprawionego wyglądu configu.
+// WIĘCEJ KOMEND I BINDÓW DO KONFIGURACJI:
+// https://sniper13.pl/csgo-komendy-lista-przydatnych-komend-w-csgo/
+// https://sniper13.pl/csgo-przydatne-bindy/
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// USTAWIENIA MYSZKI (DPI 400 | HZ 1000, Windows 6/11 | Precyzja WYŁĄCZONA)
+// PORADNIK ODNOŚNIE USTAWIEŃ MYSZKI - sniper13.pl/csgo-ustawienia-myszki
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+m_rawinput "1" // Włącza wejście z myszki. (Ustawienia Windowsa nie na myszkę.)
+wrażliwość "2.2" // Czułość myszki.
+zoom_sensitivity_ratio_mouse "1" // Czułość myszki podczas celownia z awp/scout.
+m_customaccel "0" // Całkowicie wyłącz akceleracje myszy.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// USTAWIENIA DŹWIEKU
+// Poradnik ustawienia dźwięku - sniper13.pl/csgo-ustawienia-dzwieku/
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+tom "0.15" // Ogólna głośność gry.
+snd_mix_async "1" // Usprawnia działanie komendy snd_mixahead.
+snd_mixahead "0,025" // Ustala ustawienie dźwięku. Możesz pokusić się o niższą wartość kosztem FPS. np. 0,010.
+voice_scale "0,7" // Głośność komunikacji głosowej na 70%,
+//voice_mixer_volume "0.8" // Głoścność mikrofonu na 80% - W twoim przypadku 80% może być zbyt mało. (Chyba od czasu nie działa).
+//voice_loopback "1.0" // Ta komendy, jeśli chcesz sprawdzić jak Twój mikrofon brzmi w grze.
+lobby_voice_chat_enabled "1" // Czat głosowy w lobby. 0 - 1, 1 -
+snd_surround_speakers "-1" // -1 = automatyczny wykrycie sprzętu 0 = Słuchawki 2 = Głosniki Stereo.
+snd_hwcompat "1" //Użycie zaawansowanego dźwięku. 0 - są. Na starym PC 1 może być FPS.
+snd_mute_losefocus "0" // Nie wyłącza dźwięków gry, gdy zminimalizujemy CS:GO.
+snd_menumusic_volume "0" // Głośnosc muzyki w menu.
+snd_roundstart_volume "0" // Wyłączenie muzyki na początku rundy.
+snd_roundend_volume "0.02" // Wyłączenie muzyki na końcu rundy.
+snd_mapobjective_volume "0" // Wyłączenie muzyki po podlożeniu bomby.
+snd_tensecondwarning_volume "0.02" // Włączenie muzyki, gdy do wybuchu bomby zostanie 10 sekund.
+snd_deathcamera_volume "0" // Wyłączenie muzyki zgonu.
+snd_dzmusic_volume "0.02" // Wyłączenie muzyki w wzajemną dostawę Zagrożenia.
+cl_player_ping_mute "0" // Dźwięk pingowania pozycji. 0 - Us, 1 - Nie.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// USTAWIENIA MODELU BRONI
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+cl_bobamt_lat "0.1" // Zmniejsza poziom trzesienia sie celownika w awp/scout.
+cl_bobamt_vert „0.1” // Zmniejsza poziom trzesienia sie celownika w awp/scout.
+cl_bobcycle "0.1" // Minimalne trzesienie sie broni.
+cl_bob_lower_amt "5" // Minimalne trzesienie sie broni.
+viewmodel_presetpos "0" // Preset się 0, aby trzeba bronie komendy: *
+viewmodel_fov "68" // FOV Broni
+viewmodel_offset_z "-2" // Pozycja broni góra/dół
+viewmodel_offset_x "2.5" // Pozycja broni prawo/lewo
+viewmodel_offset_y "-2" // Pozycja broni przód/tył
+viewmodel_recoil "0" // Wyłączenie odskakiwania broni podczas strzelania.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// ŁĄCZE i SERWERY
+// WYTŁUMACZENIE TYCH KOMEND ZNAJDZIESZ NA - sniper13.pl/csgo-tickrate-interp-rate-loss-choke-var
+// PORADNIK JAK USTAWIĆ PRAWIDŁOWO STAWKA - sniper13.pl/csgo-nowe-ustawienia-rate/
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+oceń "786432"
+cl_updaterate "128"
+cl_cmdrate "128"
+cl_interp "0"
+cl_interp_ratio "2.0"
+cl_timeout "1337" // Długość timeoutu
+cl_resend "2" // Po jakimkolwiek czasie na ponawianie działalności z serwerem w przypadku transmisji głosu. (Czas w sekundach - Standardowo 6 sekund).
+cl_resend_timeout "30" // Czas przez jaki będzie następowało auto dołączanie do serwera po ustracie połączenia.
+cl_join_advertise "2" // Możliwość dołączania do gry znajomych. 0 - Tylko zaproszenie. 1 - Tylko do serwerów litech. 2 - Serwery oficlalne oraz społeczności.
+cl_invites_only_friends "0" // 1 - Wyłączenia zaproszeń do gry od nieznajomych, 0 - Włącza zaproszenia od wszystkich.
+cl_mute_all_but_friends_and_party "0" // Wyłączenie komunikacji z graczami poza znajomymi i lobby.
+cl_mute_enemy_team "0" // Blokowanie komunikacji z graczami z przeciwnej. 0 - komunikacja komunikacja. 1 - komunikacja wyłączona.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// ZAWÓR SERWERYJNY
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+mm_dedicated_search_max "60" // Najwyższe miejsce na MM wyszukiwania meczu.
+mm_csgo_community_search_players_min "8" // Ustala ile minimalnie ma być graczy na serwerze Valve podczas szukania serwera. Dzięki temu nie dołączamy do serwera gdzie są te same boty.
+cl_color "2" // Preferowany kolor zobacz na turniejowym. 0 - żółty, 1 - pomarszczony, 2 - zielony, 3 - niebieski, 4 - pomarszczony.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// USTAWIENIA NET GRAPH - USTAWIENIA FPS, pingu itp.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+net_graph "0" // 1 - Włącza net graph - pokazywanie fps, pingu tickrate itd. Używam 0, ponieważ korzystam z binda na netgraphu pod TAB.
+net_graphproportionalfont "0.5" // Zmniejszenie redukcji w wykresie netto.
+net_graphheight "64" // Pozycja Graf sieciowy.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// USTAWIENIE HUD
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+cl_hud_color "1" // Zmienia kolor hudu.
+cl_hud_background_alpha "0,2" // Ustala przeźroczystość tła tła hudu.
+hud_scaling "0.88" // Skala hudu.
+hud_showtargetid "1" // przechowywany nicku przeciwnika na którym namierzyamy.
+cl_buywheel_nomousecentering "1" // Wyłączenie centrowania kursora w menu zakupów. *
+hud_playercount "0" // Miejsce żywe pos graczy w HUD. 0 - góra, 1 - dół.
+cl_hudplayercount_show" // Sposób przekazu żywych 0 graczy HUD. 0 - nowe avatarów, 1 - tylko tylko aktualnech.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// USTAWIENIA RADARU
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+cl_hud_radar_scale "1,15" // Powiększa radar.
+cl_radar_icon_scale_min "0.9" // Wielkość ikonek graczy na radarze.
+cl_radar_always_centered "0" // Wyłączenia Czarne tło wokół radaru, dzięki temu więcej widać na mapie.
+cl_radar_rotate "1" // Włącza obracanie się radaru.
+cl_radar_scale "0.4" // Skala mapy na radarze.
+cl_radar_square_with_scoreboard "1" // Radar zmienia się w kwadrat w uzupełnionym TAB.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// USTAWIENIA CELOWNIKA
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+cl_crosshairstyle "4" // Styl celownika - kompletnie statyczny.
+cl_crosshairsize "2.2" // Wielkość celownika.
+cl_crosshairdot "0" // Kropka w celowniku. 0 = WYŁ, 1 = WŁ
+cl_crosshair_t "0" // Celownik w stylu "T" usuwa górną kreske w celowniku. 0 = WYŁ, 1 = WŁ
+cl_crosshairgap "-4" // Wielkość między kreskami (Środek Celownika).
+cl_crosshairgap_useweaponvalue "0" // Celownik się nie zmienia-zależnie od broni.
+cl_crosshairthickness "1.3" // Grubość celownika.
+cl_crosshairusealpha "0" // Włącza przeźroczystość celownika.
+cl_crosshairalpha "255" // Przeźroczystość celownika. 255 = bardzo widoczny, 1 = mało widoczny. - Musi być włączone cl_crosshairusealpha, aby kontrola usługia
+cl_crosshair_drawoutline "1" // Obrysowanie czarną kreską celownika, przyrost do celownika.
+cl_crosshair_outlinethickness "1" // Wielkość obrysowania celownika. Więcej niż 1 = bugi.
+cl_crosshaircolor "1" // Kolor celownika.
+cl_crosshair_sniper_width "2.7" // Grubsze linie celownika w AWP.
+cl_cross_hair_warning wystawianie kół "następnie, gdymierzymy na test" // wystawianie kółek.
+cl_show_observer_hair "2" ////lub celeby innych cele. [0 - off, 1 - znajomi, 2 - wszyscy] *
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// POZOSTAŁE KOMENDY
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+log_color "General" "FF7F50FF" // Zmiana tekstu w konsoli. Standardowo: log_color Ogólne FFFFFFFF | Więcej kolorów: sniper13.pl/csgo-kolorowa-konsola-jak-zmienic-kolor-tekstu/ *
+log_color "Konsola" "FF7F50FF" // Zmiana tekstu w konsoli. Standardowo: log_color Konsola FFFFFFFF | Więcej kolorów: sniper13.pl/csgo-kolorowa-konsola-jak-zmienic-kolor-tekstu/ *
+engine_no_focus_sleep "" // Wyłączenie wyłączenia się z gry, gdy jest puste. Komenda przyjazna streamerom.
+cl_teamid_overhead_mode "2" // Włącza porównywanie postępów przez ścianę.
+cl_te_tehead_max10000" /d dystans między operatorami nikców nad operatorami.
+cl_opens_buymenu "0" // Wyłącza możliwość kupowania broni Dzięki E (+use) temu można dodać broń na spawnie.
+fps_max 399" // dodatek 399 - nie można zauważyć. Wyższej wartości stanowiącej podstawę pracy komputera
+cl_showhelp "1" // Włączenie/Wyłączenie podpowiedzi w grze jak np. zmiana trybu strzelania. Wspinacz się do góry.
+gameinstructor_enable "0" // Włączenie/Wyłączenie podpowiedzi w grze jak np. info o poglądzie broni, info żeby podłożyć bombę.
+cl_autowepswitch "0" // Wyłączanie auto wybieranie broni po jej podniesieniu.
+cl_disablefreezecam "1" // Po zgonie podążających za przeciwnikiem.
+cl_dm_buyrandomweapons "0" // Wyłączenie losowych broni na DM Valve.
+cl_out "1" / pokaż ikone broni w lewej dolnym rogu.
+cl_clanid "7203033" // Grupa steam w tabeli.
+con_enable "1" // Możliwość włączenia konsoli.
+joystick "0" // Wyłączenie dzzoja w grze. Może dać kilka fps na wyższych komputerach.
+cl_show_clan_in_death_notice "0" // Wyłączenie pokazywania nazwy klanu. (Tam gdzie się wyświetla kto kogo zabił.)
+player_nevershow_communityservermessage "1" // Wyłączone informacje o serwerach społeczności. dziesięć bzdetów - https://i.imgur.com/TXHslZQ.png
+ui_steam_overlay_notification_position "bottomright" // Miejsce zamieszkania steam w grze. górny, górny prawy, dolny lewy, dolny prawy
+cl_hideserverip "1" // Ukrywanie ip serwera (w tym własne) z konsoli. *
+cl_sanitize_muted_players "0" //Wyłączenie ochronne nicków losowych graczy. 1 aby uchronić się. *
+r_drawtracers_firstperson "1" // Wyłączenia lecących pocisków z karabinu (Pierwsza osoba). Niektórym ustawionie tego na 1 może pomóc w kontrolowaniu sprayu.
+func_break_max_pieces "0" // Wyłączenie odpadków po rozwalonych elementach na mapie.
+cl_ping_fade_distance "1" // Wyłączenie znikania pingów w odległości X. Standardowo: 300.
+cl_ping_fade_deadzone "0" // Wyłączenie znikania pingów po najechaniu. Standardowo: 60.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ BINDY ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+bind "downarrow" "odtwórz ambient/stwory/kurczak_śmierć_02; powiedz ¯ \_ (ツ)_/¯"
+bind "alt" "noclip" // Latanie po mapie podczas ćwieczenia.
+bind "shift" "+speed;r_cleardecals" // Czyści mape z krwi podczas nacisnięcia shift.
+bind "r" "+reload;r_cleardecals" // Czyści mape z krwi podczas przeładowania.
+bind "c" "radio" // Włącza menu radyjka.
+bind "v" "+voicerecord" // Mikrofon pod V.
+bind "f1" "autokup" // automatyczne kupowanie broni pod F1. Jakiś czas temu Zawór zmienił się ten przycisk na F3, bo myliło się z głosowania.
+bind "f11" "exec trening" // Aktywowanie konfiguracji treningu. Możesz iść tutaj - sniper13.pl/csgo-komendy-treningowe
+bind "-" "sv_cheats 1; toggle mat_postprocess_enable; sv_skyname vertigoblue_hdr" // Włączenie oszustw sv, zmiana skyboxa na zawroty głowy oraz po zakończeniu procesu. (Tylko lokalnie).
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// SZYBKIE WYCIĄGANIE GRANATÓW
+// NAZWY GRANATÓW - weapon_flashbang, weapon_hegrenade, weapon_smokegrenade, weapon_molotov, weapon_incgrenade
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+bind "MOUSE5" "użyj broni_flashbang" // Wyciąganie flasha bocznym klawiszem myszy. Jeśli chcesz wejść. dodaj // przed bindem
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// CLUTCH BIND - Wycisza/Odcisza graczy.
+// STANDARDOWO: powiąż "x" "radio2"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+bind "x" "clutch_mode_toggle"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// SKAKANIE NA PRZEWIJANIE
+// STANDARDOWO: bind "mwheelup" "invprev"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+bind "mwheelup" "+skok"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// ZMIANA RĘKI
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+bindtoggle "capslock" "cl_righthand"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// CELOWNIK DO SMOKÓW
+// STANDARDOWO: powiąż "z" "radio3"
+// Na reakcja Z lub wyłączy wyłączy celownika.
+// Pamiętaj, aby pierwsza wartość zwrotna do wielkości celownika.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+//bind "z" "przełącz cl_crosshairsize 2.5 999"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// NOWE KOŁO KOMEND RADIOWYCH
+// STANDARDOWO: powiąż "z" "radio3"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+powiąż „z” „+radioradio”
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// SZYBKIE WYRZUCANIE BOMBY
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+bind "n" "użyj weapon_c4;drop"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// WYŻSZY SKOK - Łatwiej wskakiwać na skrzynki na mirage.
+// STANDARDOWO: bind "spacja" "+skok"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+alias "+skok" "+skok; +kaczka"
+alias "-hjump" "-skok; -kaczka"
+bind "spacja" "+hjump"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// SKOK PO NACIŚNIĘCIU SCROOLA
+// Poniższy zakaz jest niedozwolony na niektóych ligach - w takim przypadku wybierz niżej.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+//alias "+skok" "+skok; -atak; -atak2"
+//alias "-skok" "-skok"
+//powiąż "mysz3" "+rzut"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// WYRZUT DOZWOLONY NA LIGACH:
+// W TYM SAMYM MOMENCIE NACISKAMY X oraz SPACJE
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+//bind "x" "-attack; -attack2" // Usuń "//" przed wiązaniem, aby aktywować wiązanie.
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// PINGOWANIE NA MAPIE
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+powiąż "mysz3" "player_ping"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// VOLUME UP PODCZAS CICHEGO CHODZENIA I KUCANIA
+// STANDARDOWO: bind "shift" "+speed"
+// STANDARDOWO: bind "ctrl" "+kaczka"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// CHODZENIE:
+//alias "+shh" "zwiększ głośność zmiennej 0 2 0.10;+prędkość;r_cleardecals"
+//alias "-shh" "incrementvar volume 0 2 -0.10;-speed"
+//powiąż "shift" "+shh"
+// KUCANIE:
+//alias +shhd "zwiększ objętość zmiennej 0 2 0.10;+kaczka;r_cleardecals"
+//alias -shhd "incrementvar volume 0 2 -0.10;-duck"
+//powiąż "ctrl" "+shhd"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// WYŚWIETLANIE NET_GRAPH PODCZAS TRZYMANIA TAB
+// STANDARDOWO: bind "tab" "+score"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+powiąż „TAB” „+scorenet”
+alias "+scorenet" "+wyniki; net_graph 1"
+alias "-scorenet" "-showscores; net_graph 0"
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ja
+// WIĘCEJ PRZYDATNYCH BINDÓW ZNAJDZIESZ NA - sniper13.pl/csgo-przydatne-bindy
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ja
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// SKRÓTY KOMEND
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+alias "q" "zakończ"
+alias "qq" "zakończ"
+alias "dc" "rozłącz"
+alias "rr" "ponowna próba"
+alias "s" "stan"
+alias "c" "wyczyść"
+alias „dr” „game_type 1; game_mode 2; mapa szmaragdowa”
+alias „t” „mp_freezetime 2; mp_warmup_end; sv_cheats 1”
+// usuwanie dymu
+alias "sd" "record record.record;ent_fire smokegrenade_projectile kill;snd_playsounds Music.StopAllExceptMusic;stop;snd_playsounds Buttons.snd37"
+// Szybkie udzielanie broni
+// Nie trzeba wpisywać w konsoli dac weapon_nazwabroni, wystarczy wpisać tylko jej nazwe.
+alias "ak" "daj broń_ak47"
+alias "m4" "daj broń_m4a1"
+alias "m4s" "daj broń_m4a1_silencer"
+alias "galil" "daj broń_galilar"
+alias "famas" "daj broń_famas"
+alias "sierpień" "daj broń_sierpień"
+alias "sg" "daj broń_sg556"
+alias "tec" "daj broń_tec9"
+alias "pięć siedem" "daj broń_pięć siedem"
+alias "cz" "daj broń_cz75a"
+alias "beretki" "daj broń_elite"
+alias "podwójny" "daj broń_elite"
+alias "p2000" "daj broń_hkp2000"
+alias "usp" "daj broń_usp_silencer"
+alias "glock" "daj broń_glock"
+alias "deagle" "daj broń_deagle"
+alias "p250" "daj broń_p250"
+alias "mp9" "daj broń_mp9"
+alias "mac10" "daj broń_mac10"
+alias "uzi" "daj broń_mac10"
+alias "mp7" "daj broń_mp7"
+alias "bizon" "daj broń_bizon"
+alias "ump" "daj broń_ump45"
+alias "mag7" "daj broń_mag7"
+alias "swag7" "daj broń_mag7"
+alias "mp5" "daj broń_mp5sd"
+alias "sawedoff" "daj broń_sawedoff"
+alias "przepiłowany" "daj broń_piłowany"
+alias "soff" "daj broń_piłowana"
+alias "przepiłowany" "daj broń_piłowany"
+alias "przepiłowany" "daj broń_piłowany"
+alias "nova" "daj broń_nova"
+alias "xm" "daj broń_xm1014"
+alias "xm1014" "daj broń_xm1014"
+alias "awp" "daj broń_awp"
+alias „zwiad” „daj broń_ssg08”
+alias "blizna" "daj broń_scar20"
+alias "scar20" "daj broń_scar20"
+alias "g3" "daj broń_g3sg1"
+alias "c4" "daj broń_c4"
+alias "negev" "daj broń_negev"
+alias "m249" "daj broń_m249"
+alias "rewolwer" "daj broń_rewolwer"
+alias "flash" "daj broń_flashbang"
+alias "on" "daj broń_hegrenade"
+alias "dym" "daj broń_granat dymny"
+alias "molo" "daj broń_molotowa"
+alias „wabik” „daj wabik_broni”
+alias "śnieżka" "daj broń_śnieżka"
+alias "tag" "daj broń_tagrenade"
+// MAPY
+alias "mirage" "map de_mirage"
+alias "nuke" "map de_nuke"
+alias "aztec" "mapa de_aztec"
+alias "cache" "map de_cache"
+alias "cobble" "map de_cbble"
+alias "kurz" "map de_dust"
+alias "kurz2" "mapa de_kurz2"
+alias "piekło" "mapa de_piekła"
+alias "overpass" "map de_overpass"
+alias "sezon" "mapa de_sezon"
+alias "pociąg" "mapa de_tain"
+alias "vertigo" "map de_vertigo"
+powiąż "kp_home" "1"
+powiąż "kp_uparrow" "2"
+powiąż "kp_pgup" "3"
+powiąż "kp_leftarrow" "4"
+powiąż „kp_5” „5”
+powiąż "kp_rightarrow" "6"
+// INFO W KONSOLI, ŻE AUTOEXEC SIĘ ZAŁADOWAŁ.
+exec gaben.cfg
+Echo " "
+Echo " "
+echo "+---------------------------------------------------------- --------------------------+"
+echo "| SNAJPEROS KOMPANIEROS CEFGENIEROS LOADEOS |"
+echo "+---------------------------------------------------------- --------------------------+"
+Echo " "
+Echo " "
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+// WAŻNA KOMENDA!
+// BEZ PONIŻSZEJ KOMEDY AUTOEXEC NIE URUCHOMI SIĘ!
+// JEŚLI CONFIG MIMO TO NIE WCZYTUJE SIĘ, UPEWNIJ SIĘ ŻE JEST W FOLDERZE /csgo/cfg LUB X:/Steam/UserData/TWÓJ_STEAM_ID/730/local/cfg
+//⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃
+host_writeconfig
